@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import Image from 'next/image';
 import { CardPageConfig } from '@/types/page';
+import { assetPath } from '@/lib/assetPath';
 
 const markdownComponents = {
     p: ({ children }: React.ComponentProps<'p'>) => <p className="mb-3 last:mb-0">{children}</p>,
@@ -118,7 +119,7 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                                 >
                                     <div className="relative aspect-video w-full overflow-hidden rounded-lg border border-neutral-200 bg-neutral-50 dark:border-neutral-700 dark:bg-neutral-800">
                                         <Image
-                                            src={item.image}
+                                            src={assetPath(item.image)}
                                             alt={`${item.title} project figure`}
                                             fill
                                             className="object-contain"

@@ -1,12 +1,9 @@
 name: Deploy PRISM to GitHub Pages
 
 on:
-  # Push triggers are disabled by default for template users.
-  # Uncomment the lines below to enable automatic deployment on push.
-  # push:
-  #  branches: 
-  #      - main
-  #      - ci
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -32,6 +29,8 @@ jobs:
         run: npm install
 
       - name: Build site
+        env:
+          NEXT_PUBLIC_BASE_PATH: /Person-Website
         run: npm run build
 
       - name: Upload artifact

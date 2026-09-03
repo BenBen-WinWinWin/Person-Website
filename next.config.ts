@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
-const isGitHubPagesBuild = process.env.GITHUB_ACTIONS === 'true';
-const basePath = isGitHubPagesBuild ? '/Person-Website' : '';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 const nextConfig: NextConfig = {
   output: 'export',
