@@ -64,8 +64,8 @@ href = "/publications"
 [[navigation]]
 title = "Projects"
 type = "page"
-target = "Projects"
-href = "/Projects"
+target = "projects"
+href = "/projects"
 
 [[navigation]]
 title = "Awards"
