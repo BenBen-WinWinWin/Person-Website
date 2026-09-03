@@ -1,0 +1,23 @@
+type = "card"
+title = "Projects"
+description = "Selected research projects in physiological signal processing, neuroimaging, and machine learning."
+
+[[items]]
+title = "Noise-Robust Physiological Signal Modeling"
+content = "Developed ADM, a plug-and-play anti-noise module that combines cosine-similarity-based feature weighting, soft-thresholding, and complementary signal-processing operations. The module improves feature robustness across different network architectures and noisy real-world deployment conditions."
+image = "/projects/Figure1_0903_3.png"
+
+[[items]]
+title = "EEG-Based Emotion Recognition"
+content = "Developed NeuroSentinel for EEG-based emotion recognition by integrating joint spectral-spatial representations, multiscale temporal encoding, and unlabeled subject-specific calibration. The framework addresses low signal-to-noise ratios and substantial cross-subject distribution shifts."
+image = "/projects/c661e5f4865303195322f4a74c24a014.png"
+
+[[items]]
+title = "Glioma Infiltration Reshapes Brain Structure-Function Coupling"
+content = "Developed a multilevel graph neural network to predict functional network organization from structural connectivity. The resulting individual-level, region-wise structure-function coupling estimates are analyzed using regression models to identify coupling-change phenotypes associated with glioma infiltration, characterize their spatial distributions, and quantify prognostic associations. Ongoing work integrates transcriptomic profiles, cell-cell communication networks, and healthy-brain annotation atlases to investigate host-tumor mechanisms underlying distinct coupling phenotypes."
+image = "/projects/_MConverter.eu_模型图.png"
+
+[[items]]
+title = "Self-Supervised AF Detection"
+content = "Developing a superlet-based time-frequency coupled self-supervised learning framework for atrial fibrillation (AF) detection under scarce high-quality labels and abundant noisy unlabeled data. Preliminary results suggest improved performance over existing self-supervised baselines while approaching full-label performance using only 1% of the labeled training data."
+image = "/projects/image.png"

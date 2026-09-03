@@ -1,0 +1,21 @@
+type = "card"
+title = "Awards"
+description = "Selected honors and competition achievements."
+
+[[items]]
+title = "11th National Undergraduate Biomedical Engineering Innovation Design Competition"
+subtitle = "NeuroSentinel — Intelligent Emotion Recognition Algorithm Based on Deep Learning and EEG"
+date = "Second Prize"
+content = "Received the second prize for the NeuroSentinel project."
+
+[[items]]
+title = "11th National Undergraduate Biomedical Engineering Innovation Design Competition"
+subtitle = "Dual-Branch Diffusion-Enhanced and Multi-Scale Noise-Resistant Classification System for Atrial Fibrillation Diagnosis"
+date = "Second Prize"
+content = "Received the second prize for a diffusion-enhanced classification system for atrial fibrillation diagnosis."
+
+[[items]]
+title = "2025 Chinese Physiological Signal Challenge"
+subtitle = "Undergraduate Division"
+date = "7th Place"
+content = "Ranked seventh in the undergraduate division."

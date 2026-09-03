@@ -1,0 +1,86 @@
+[site]
+title = "Haotian Tang"
+description = "Undergraduate student at the Northeastern University & University of Dundee."
+favicon = "/favicon.jpg"
+last_updated = "September 3, 2026"
+
+[author]
+name = "Haotian Tang"
+title = "Undergraduate Student"
+institution = "Northeastern University & University of Dundee"
+avatar = "/bio.jpg"
+
+[social]
+# Contact information (leave blank or delete to hide)
+
+email = "3521433191@qq.com"
+location = "Shenyang, China"
+location_url = "https://maps.google.com/?q=Northeastern+University+Hunnan+Campus+Shenyang+China"
+
+location_details = [
+  "Northeastern University, Hunnan Campus",
+  "No. 195, Chuangxin Road, Hunnan District",
+  "Shenyang, Liaoning, China"
+]
+google_scholar = "https://scholar.google.com/citations?user=VoSJb3cAAAAJ&hl=zh-CN"
+orcid = "https://orcid.org/my-orcid?orcid=0009-0001-3624-7641"
+github = "https://github.com/BenBen-WinWinWin"
+linkedin = "https://www.linkedin.com/in/haotian-tang-142813307/"
+
+[features]
+# Show a like button on the about page
+enable_likes = true
+
+# Display all subpages on a single page
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+# "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
+mode = "fixed"
+fixed_locale = "en"
+# If true, PRISM will remember user's language preference in browser's localStorage
+persist = false
+# Show a language switcher on the top right corner
+switcher = false
+
+[i18n.labels]
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Projects"
+type = "page"
+target = "Projects"
+href = "/Projects"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

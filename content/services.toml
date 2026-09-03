@@ -1,0 +1,15 @@
+type = "card"
+title = "Services"
+description = "Academic peer-review service for journals and international conferences."
+
+[[items]]
+title = "Peer Reviewer"
+subtitle = "Journal and Conference Reviewing"
+content = """
+Served as a peer reviewer for the following journals and conferences:
+
+- **NeuroImage: Clinical**
+- **IEEE Internet of Things Journal**
+- **IJCAI-ECAI 2026**
+- **PRICAI 2026**
+"""

@@ -1,0 +1,7 @@
+I am an undergraduate student majoring in **Biomedical Engineering** through a joint degree program between **Northeastern University, China**, and the **University of Dundee, Scotland, UK**. Currently, my research projects are conducted under the supervision of **Prof. Liping Xie** at Northeastern University and **Prof. Chao Li** at University of Cambridge.
+
+My current research focuses on developing advanced **AI methods** and **bioinformatics analysis** frameworks to decode complex physiological signals and multimodal brain networks. Specifically, my work centers on two main areas:
+
+- **AI-Driven Physiological Signal Processing**: Designing robust, lightweight, and generative AI models (including **diffusion models**, **self-supervised learning**, and **edge-AI architectures**) for wearable healthcare. I focus on solving real-world deployment challenges such as noise robustness, severe class imbalance, and label scarcity in ECG and EEG analysis.
+
+- **Multimodal Brain Network Modeling & Bioinformatics**: Developing **hierarchical graph neural networks** to model brain structure-function coupling. I integrate multi-scale connectomics with bioinformatics data (such as **transcriptomic profiles** and **cell-cell communication networks**) to uncover host-tumor mechanisms and improve personalized genotype prediction in glioma.
